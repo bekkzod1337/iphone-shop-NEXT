@@ -1,21 +1,27 @@
 import Image from "next/image";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
-import CategorySection from "./components/CategorySection";
-import SmallerBanners from "./components/SmallerBanners";
-import ProductsSection from "./components/ProductsSection";
-import { Spotlight } from "lucide-react";
-import PromoGrid from "./components/PromoGrid";
+import Banners from "./components/Banners";
+import Categories from "./components/Categories";
+import ProductsSection from "./components/Products";
+import Popular from "./components/Popular";
+import DiscountProducts from "./components/DiscountProducts";
+import Banner2 from "./components/Banner2";
+import Footer from "./components/Footer";
+
 
 export default function Home() {
   return (
-    <div className="font-sans flex flex-col items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+    <div className="font-sans flex flex-col items-center min-h-screen">
   <Header />
   <Banner />
-  <SmallerBanners />
-  <CategorySection />
+  <Banners />
+  <Categories />
   <ProductsSection />
-  <PromoGrid />
+  <Popular />
+  <DiscountProducts />
+  <Banner2 />
+  <Footer />
 </div>
 
   );
