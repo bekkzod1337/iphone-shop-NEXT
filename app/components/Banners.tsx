@@ -123,8 +123,8 @@ export default function EnhancedBanners() {
                 Apple AirPods Max
               </h3>
               <p className="text-xs leading-5 font-medium text-gray-500 dark:text-gray-300">
-                Computational audio. Listen, it's powerful
-              </p>
+  Computational audio. Listen, it&apos;s powerful
+</p>
 
               <div className="flex gap-2 mt-2">
                 <InteractiveIcon 
