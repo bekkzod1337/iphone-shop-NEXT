@@ -68,7 +68,7 @@ export default function DiscountProducts() {
                 Discount Products
               </h2>
             </div>
-            <p className="text-gray-400 ml-7">Limited time offers you don't want to miss</p>
+            <p className="text-gray-400 ml-7">Limited time offers you dont want to miss</p>
           </div>
           <button className="group relative px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25 hover:-translate-y-0.5">
             <span className="relative z-10">View All</span>
